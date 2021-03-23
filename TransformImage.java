@@ -4,7 +4,7 @@ import java.util.Base64;
 import org.apache.commons.io.IOUtils;
 
 @Service
-public class PdiService {
+public class TransformImage {
 
   @Transactional
     public String getStaticMapImage() throws IOException {
